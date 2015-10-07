@@ -59,6 +59,8 @@ While it may seem repetitive and overboard, most of the time the HTML will be ge
   3. Style the "featured" paragraph by giving it rounded corners, a 4-pixel black border, and a nice background color of your choice.
   4. Style the author image by making it rounded, no visible border, and a semi-transparent black shadow.
 
+Command used to generate CSS file : sass --mixins/scss/main.scss:mixins/css/main.css
+
 ## Exercise 3: The "Holy Grail" Layout
 * Note that this exercise is not SASS-specific. You can and should use SASS to complete it as it's more maintainable!
 * Go through the [Flexbox in 5 tutorial](http://flexboxin5.com/)

@@ -1,1 +1,63 @@
-// write your code here 
+body {
+    margin:0;
+}
+.HolyGrail {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+		
+.HolyGrail-body {
+    display:flex;
+    justify-content: center;
+}
+		
+.HolyGrail-header {
+    width: 100%;
+    background-color:#666;
+    padding:0.1em;
+    text-align:center;
+}
+	
+ .HolyGrail-nav {
+    width: 15%;
+    height: 100%;
+    background-color:#fff;
+    order:-1;
+    padding:0.5em;
+    
+    strong {
+        text-align:center;
+    }
+}
+	
+ .HolyGrail-content {
+    width: 70%;
+    height: 100%;
+    background-color:#999;
+    padding:0.5em;
+    text-align:justify;
+    
+    h1 {
+        margin:0;
+    }
+}
+	
+.HolyGrail-ads {
+    width: 15%;
+    height: 100%;
+    background-color:#fff;
+    padding:0.5em;
+    
+    strong {
+        text-align:center;
+    }
+}
+	
+.HolyGrail-footer {
+    width: 100%;
+    background-color:#666;
+    padding:0.3em;
+    text-align:center;
+}
+	
